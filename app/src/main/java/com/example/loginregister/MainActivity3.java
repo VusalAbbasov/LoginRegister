@@ -28,9 +28,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
 
-        binding.btnRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        binding.btnRegister.setOnClickListener(view->{
                 String inputEmail = binding.txtEmail.getText().toString();
                 String inputPassword = binding.txtPassword.getText().toString();
 
@@ -43,7 +41,6 @@ public class MainActivity3 extends AppCompatActivity {
                 } else {
                     Toast.makeText(MainActivity3.this, "Invalid email or password", Toast.LENGTH_SHORT).show();
                 }
-            }
         });
     }
 }
