@@ -20,9 +20,10 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding  = ActivityMain2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
         binding.textViewSignIn.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
-            startActivity(intent);
+//            startActivity(intent);
         });
         binding.btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
