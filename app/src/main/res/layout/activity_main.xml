@@ -54,6 +54,7 @@
         android:background="@drawable/rectangle_button"
         android:radius="0dp"
         android:text="Get Started"
+        app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
